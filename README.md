@@ -8,6 +8,8 @@ Problem description, if I remember well:
   
 I made this solution using PHP + Unix Philosophies/Rules
 
+![image](https://user-images.githubusercontent.com/11032344/166620390-fc4b6110-fd47-40db-8537-f86b03045f2c.png)
+
 ### TODO
 - handle `$argv` with `getopt(...)`
 - handle input errors like strings or num positive number values
