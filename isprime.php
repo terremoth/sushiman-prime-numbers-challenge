@@ -1,11 +1,6 @@
 <?php
 
-declare(strict_types=1);
 const EOL = PHP_EOL;
-
-function generatePrimes(int $until) : void {
-        
-}
 
 function isPrime(int $number) : bool {
 
@@ -25,10 +20,5 @@ $argNumber = (int)$argv[1];
 $isArgAPrimeNumber = isPrime($argNumber);
 $exit = (int)!$isArgAPrimeNumber;
 
-//echo "Arg: $argNumber".EOL;
-//echo "is prime: $isArgAPrimeNumber".EOL;
-//echo "Exit: $exit".EOL;
 echo (int)$isArgAPrimeNumber.EOL;
 exit( $exit );
-
-//print_r($argv);
