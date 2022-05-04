@@ -1,7 +1,5 @@
 <?php
 
-declare(strict_types=1);
-
 $start = 1;
 $until = (int)$argv[1];
 
@@ -16,3 +14,4 @@ for ($i = $start; $i <= $until; $i++) {
     if ($resp) echo $i.PHP_EOL;
 }
 
+exit(0);
