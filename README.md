@@ -12,4 +12,4 @@ I made this solution using PHP + Unix Philosophies/Rules
 
 ### TODO
 - handle `$argv` with `getopt(...)`
-- handle input errors like strings or num positive number values
+- handle input errors like strings or non positive number values
